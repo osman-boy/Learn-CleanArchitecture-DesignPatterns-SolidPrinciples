@@ -1,4 +1,4 @@
-######created by [osman-boy](https://github.com/osman-boy)
+###### created by [osman-boy](https://github.com/osman-boy)
 # **ISP - Interface segregation principle**
 
 Принцип разделения(сегрегации) интерфейсов. Клиенты не должны зависеть от методов, которые они не используют. Стремитесь
@@ -26,7 +26,7 @@ class Eagle : Bird {
 
     override fun eat() = println("I'm eating")
 
-    /** Но орел не умеет плавать, мы были вынуждены реализовать метод интерфейса которого даже не используем.*/
+    // Но орел не умеет плавать, мы были вынуждены реализовать метод интерфейса которого даже не используем.
     override fun swim() = Unit
 
     override fun sleep() = println("I'm sleeping")
@@ -35,7 +35,7 @@ class Eagle : Bird {
 
 class Penguin : Bird {
 
-    /** А пингвин не умеет летать, мы были вынуждены реализовать метод интерфейса которого даже не используем.*/
+    // А пингвин не умеет летать, мы были вынуждены реализовать метод интерфейса которого даже не используем.
     override fun fly() = println("I'm flying")
 
     override fun eat() = println("I'm eating")
