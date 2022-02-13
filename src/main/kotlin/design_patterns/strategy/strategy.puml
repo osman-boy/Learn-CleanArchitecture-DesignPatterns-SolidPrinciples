@@ -1,0 +1,91 @@
+@startuml
+package  "Инкапсуляция fly" <<Rectangle>> #DDDDDD {
+note top of FlyBehaviour :Эти алгоритмы взаимозаменяемые.
+interface FlyBehaviour{
+fly()
+}
+class FlyWithWings{
+fly()
+}
+FlyBehaviour <|.. FlyWithWings
+
+
+class FlyNoWay{
+fly()
+}
+FlyBehaviour <|.. FlyNoWay
+
+
+class FlyRockedPowered{
+fly()
+}
+FlyBehaviour <|.. FlyRockedPowered
+}
+
+
+
+package  "Инкапсуляция quack" <<Rectangle>> #DDDDDD {
+
+interface QuackBehaviour{
+quack()
+}
+note top of QuackBehaviour :Каждый набор можно\nрассматривать как\nсемейство алгоритмыов.
+class Quack{
+quack()
+}
+QuackBehaviour <|.. Quack
+
+
+class MuteQuack{
+quack()
+}
+QuackBehaviour <|.. MuteQuack
+
+
+class Squeak{
+quack()
+}
+QuackBehaviour <|.. Squeak
+
+}
+
+
+
+package  Клиент <<Rectangle>> #DDDDDD {
+abstract class Duck {
+flyBehaviour:FlyBehaviour
+quackBehaviour:QuackBehaviour
+ display()
+ performFly()
+ performQuack()
+ swim()
+
+}
+Duck <|-- MallardDuck
+Duck <|-- RubberDuck
+Duck <|-- RedheadDuck
+Duck <|-- ModelDuck
+note top of Duck : Клиент использует\nинкапсулированные алгоритмы.
+Duck  -|> FlyBehaviour
+QuackBehaviour <|- Duck
+class MallardDuck{
+display()
+}
+
+class RubberDuck{
+display()
+}
+
+class ModelDuck{
+display()
+}
+
+class RedheadDuck{
+display()
+}
+
+}
+
+
+
+@enduml
