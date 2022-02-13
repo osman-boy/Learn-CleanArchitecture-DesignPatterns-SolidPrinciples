@@ -13,7 +13,7 @@
 | Ducks                               |
 |-------------------------------------|
 | [ModelDuck](ducks/ModelDuck.kt)     |
-| [Redhead](ducks/Redhead.kt)         |
+| [Redhead](ducks/RedheadDuck.kt)     |
 | [RubberDuck](ducks/RubberDuck.kt)   |                              
 | [MallardDuck](ducks/MallardDuck.kt) |
 
@@ -40,4 +40,4 @@
 
 **Инкапсуляция поведения: общая картина**
 
-![](C:/Users/osmanboy/Downloads/ZLDDRzf04BtlhnYbb_O0Fm0X55LHRrGjFN39PR4Ni30syKSZ19K2bNff9AvL_qCbIalY173-mkm_wdWibRK38Zw0_UODVllUupoCP135GrUCf3MGFGLmXZzmXu-un2SzqrznenVw6oPw0LrtV0RrUajPaVHwhcequDK5Np0HdXyfYFmH-5ruvuxVghxyxFXn03NyfUUO02vnWtymrJU.png)
+![](strategy.png)
