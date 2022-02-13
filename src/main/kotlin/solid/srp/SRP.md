@@ -1,4 +1,4 @@
-created by [osman-boy](https://github.com/osman-boy)
+###### created by [osman-boy](https://github.com/osman-boy)
 # **SRP**
 SRP(Single Responsibility Principle) - Принцип единственной ответственности. Класс должен иметь только одну причину(мотив) для изменения. Стремитесь
 к тому, чтобы каждый класс отвечал только за одну часть функциональности программы, причём она должна быть полностью
