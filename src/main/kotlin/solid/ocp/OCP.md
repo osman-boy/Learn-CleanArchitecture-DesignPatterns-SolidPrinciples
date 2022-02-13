@@ -1,4 +1,4 @@
-created by [osman-boy](https://github.com/osman-boy)
+###### created by [osman-boy](https://github.com/osman-boy)
 # **OCP - Open closed principle.**
 
 Принцип открытости / закрытости. Программные сущности, такие как классы, функции, модули,
