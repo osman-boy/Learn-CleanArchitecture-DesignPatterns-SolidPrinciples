@@ -9,7 +9,8 @@ _Keep It Simple, Stupid / Будь проще_
 задаче более сложного решения, чем ей требуется. Иногда самое разумное решение оказывается и самым
 простым. Написание производительного, эффективного и простого кода – это прекрасно.
 
-![](kiss.png)
+
+![](https://res.cloudinary.com/practicaldev/image/fetch/s--YWDRw-AQ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/h8xueuwzgqyi7jkt6rut.png)
 
 ###### „Делай просто, насколько возможно, но не проще этого.“ — Альберт Эйнштейн
 
