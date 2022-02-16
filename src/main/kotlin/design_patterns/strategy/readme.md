@@ -1,3 +1,5 @@
+######created by [osman-boy](https://github.com/osman-boy)
+
 ## **_Паттерн Стратегия_**
 
 ```text
@@ -13,7 +15,7 @@
 | Ducks                               |
 |-------------------------------------|
 | [ModelDuck](ducks/ModelDuck.kt)     |
-| [Redhead](ducks/RedheadDuck.kt)     |
+| [Redhead](ducks/Redhead.kt)         |
 | [RubberDuck](ducks/RubberDuck.kt)   |                              
 | [MallardDuck](ducks/MallardDuck.kt) |
 
@@ -40,4 +42,4 @@
 
 **Инкапсуляция поведения: общая картина**
 
-![](strategy.png)
+![](C:/Users/osmanboy/Downloads/ZLDDRzf04BtlhnYbb_O0Fm0X55LHRrGjFN39PR4Ni30syKSZ19K2bNff9AvL_qCbIalY173-mkm_wdWibRK38Zw0_UODVllUupoCP135GrUCf3MGFGLmXZzmXu-un2SzqrznenVw6oPw0LrtV0RrUajPaVHwhcequDK5Np0HdXyfYFmH-5ruvuxVghxyxFXn03NyfUUO02vnWtymrJU.png)

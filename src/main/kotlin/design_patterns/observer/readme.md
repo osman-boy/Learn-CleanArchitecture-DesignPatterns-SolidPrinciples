@@ -1,3 +1,5 @@
+######created by [osman-boy](https://github.com/osman-boy)
+
 ## **_Паттерн Наблюдатель_**
 
 ```text
@@ -24,4 +26,4 @@
 
 ## **_Диаграмма_**
 
-![](observer.png)
+![](../../../../../../../Screenshot_20220209-180245_ReadEra.png)
